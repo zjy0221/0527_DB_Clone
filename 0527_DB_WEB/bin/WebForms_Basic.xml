@@ -1,0 +1,104 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+0527_DB_WEB
+</name>
+</assembly>
+<members>
+<member name="T:_0527_DB_WEB.My.MyWebExtension">
+ <summary>
+ 用來定義可用於 Web 專案 My 命名空間中之屬性的模組。
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:_0527_DB_WEB.My.MyWebExtension.Computer">
+ <summary>
+ 傳回主機電腦的資訊。
+ </summary>
+</member>
+<member name="P:_0527_DB_WEB.My.MyWebExtension.User">
+ <summary>
+ 傳回目前 Web 使用者的資訊。
+ </summary>
+</member>
+<member name="P:_0527_DB_WEB.My.MyWebExtension.Request">
+ <summary>
+ 傳回要求物件。
+ </summary>
+</member>
+<member name="P:_0527_DB_WEB.My.MyWebExtension.Response">
+ <summary>
+ 傳回回應物件。
+ </summary>
+</member>
+<member name="P:_0527_DB_WEB.My.MyWebExtension.Log">
+ <summary>
+ 傳回 Asp 記錄物件。
+ </summary>
+</member>
+<member name="F:_0527_DB_WEB.SiteMaster._MainContent">
+<summary>
+MainContent 控制項。
+</summary>
+<remarks>
+自動產生的欄位。
+若要修改，請將欄位宣告從設計工具檔案移到程式碼後置 (Code-Behind) 檔案。
+</remarks>
+</member>
+<member name="F:_0527_DB_WEB.Site_Mobile._Head1">
+<summary>
+Head1 控制項。
+</summary>
+<remarks>
+自動產生的欄位。
+若要修改，請將欄位宣告從設計工具檔案移到程式碼後置 (Code-Behind) 檔案。
+</remarks>
+</member>
+<member name="F:_0527_DB_WEB.Site_Mobile._HeadContent">
+<summary>
+HeadContent 控制項。
+</summary>
+<remarks>
+自動產生的欄位。
+若要修改，請將欄位宣告從設計工具檔案移到程式碼後置 (Code-Behind) 檔案。
+</remarks>
+</member>
+<member name="F:_0527_DB_WEB.Site_Mobile._form1">
+<summary>
+form1 控制項。
+</summary>
+<remarks>
+自動產生的欄位。
+若要修改，請將欄位宣告從設計工具檔案移到程式碼後置 (Code-Behind) 檔案。
+</remarks>
+</member>
+<member name="F:_0527_DB_WEB.Site_Mobile._FeaturedContent">
+<summary>
+FeaturedContent 控制項。
+</summary>
+<remarks>
+自動產生的欄位。
+若要修改，請將欄位宣告從設計工具檔案移到程式碼後置 (Code-Behind) 檔案。
+</remarks>
+</member>
+<member name="F:_0527_DB_WEB.Site_Mobile._MainContent">
+<summary>
+MainContent 控制項。
+</summary>
+<remarks>
+自動產生的欄位。
+若要修改，請將欄位宣告從設計工具檔案移到程式碼後置 (Code-Behind) 檔案。
+</remarks>
+</member>
+<member name="F:_0527_DB_WEB.Site_Mobile._ViewSwitcher1">
+<summary>
+ViewSwitcher1 控制項。
+</summary>
+<remarks>
+自動產生的欄位。
+若要修改，請將欄位宣告從設計工具檔案移到程式碼後置 (Code-Behind) 檔案。
+</remarks>
+</member>
+</members>
+</doc>

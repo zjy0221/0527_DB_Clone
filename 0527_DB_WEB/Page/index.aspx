@@ -7,7 +7,10 @@
             <button type="submit"  id="id_btn" runat="server" onserverclick="btn_Click">搜索</button>
 
              <p/><p/><p/>
-            <p>搜尋結果：<asp:Label ID="resultLabel" runat="server">  </asp:Label></p>
+            <p>搜尋結果：<asp:Label ID="result_ID1" runat="server">  </asp:Label></p>
 
     </div>
+
+    <asp:SqlDataSource ID="SqlDataSource1" runat="server"></asp:SqlDataSource>
+
 </asp:Content>

@@ -47,6 +47,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand" runat="server" href="~/Page/index">處方籤追蹤系統</a>
                 </div>
@@ -56,6 +57,7 @@
                         <li><a runat="server" href="~/Page/Medical">醫科專區</a></li>
                         <li><a runat="server" href="~/Page/Medical_Record">過往病歷</a></li>
                          <li><a runat="server" href="~/Page/WebForm2">測試用</a></li>
+                        <li><a runat="server" href="~/Page/WebForm4">測試用2</a></li>
                     </ul>
                 </div>
             </div>

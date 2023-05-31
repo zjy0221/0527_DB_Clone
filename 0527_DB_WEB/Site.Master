@@ -56,7 +56,7 @@
                         <li><a runat="server" href="~/Page/index">首頁</a></li>
                         <li><a runat="server" href="~/Page/Medical">醫科專區</a></li>
                         <li><a runat="server" href="~/Page/Medical_Record">過往病歷</a></li>
-                         <li><a runat="server" href="~/Page/WebForm2">測試用</a></li>
+                         <li><a runat="server" href="~/Page/WebForm2">其餘查詢</a></li>
                         <li><a runat="server" href="~/Page/WebForm4">測試用2</a></li>
                     </ul>
                 </div>

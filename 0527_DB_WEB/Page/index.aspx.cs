@@ -77,7 +77,7 @@ namespace _0527_DB_WEB.Page
             string id = "'"+ ID_Number +"'";
 
             SqlDataSource1.SelectCommand =
-            "SELECT Patient.p_name as 患者, Patient.ID as 身分證, Patient.IC_num as 健保卡號, NedicalRecords.DiagnosisContent, PrescriptionSign .*   FROM PrescriptionSign   INNER JOIN NedicalRecords ON PrescriptionSign.mr_num = NedicalRecords.mr_num   INNER JOIN Patient ON Patient.p_num = NedicalRecords.p_num   WHERE Patient.ID =" + id + " ORDER BY PrescriptionSign .lnvoice DESC--時間排序 ";
+            "SELECT Patient.p_name AS 患者, Patient.ID AS 身分證, Patient.IC_num AS 健保卡號, NedicalRecords.DiagnosisContent AS 診斷內容, PrescriptionSign.DrugName AS 藥名, PrescriptionSign.application AS 用途, PrescriptionSign.dose AS 劑量, PrescriptionSign.TakeTime AS 服用時間, PrescriptionSign.frequency AS 服用頻率, PrescriptionSign.lnvoice AS 開立時間, PrescriptionSign.mr_num AS 病歷號   FROM PrescriptionSign   INNER JOIN NedicalRecords ON PrescriptionSign.mr_num = NedicalRecords.mr_num    INNER JOIN Patient ON Patient.p_num = NedicalRecords.p_num    WHERE Patient.ID = " + id + " ORDER BY PrescriptionSign.lnvoice DESC--時間排序 ";
 
         }
 

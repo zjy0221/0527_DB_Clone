@@ -29,8 +29,8 @@
                 健保卡號:
                 <asp:TextBox ID="健保卡號TextBox" runat="server" Text='<%# Bind("健保卡號") %>' />
                 <br />
-                病因:
-                <asp:TextBox ID="病因TextBox" runat="server" Text='<%# Bind("病因") %>' />
+                診斷內容:
+                <asp:TextBox ID="診斷內容TextBox" runat="server" Text='<%# Bind("診斷內容") %>' />
                 <br />
                 時間:
                 <asp:TextBox ID="時間TextBox" runat="server" Text='<%# Bind("時間") %>' />
@@ -62,8 +62,8 @@
                 健保卡號:
                 <asp:TextBox ID="健保卡號TextBox" runat="server" Text='<%# Bind("健保卡號") %>' />
                 <br />
-                病因:
-                <asp:TextBox ID="病因TextBox" runat="server" Text='<%# Bind("病因") %>' />
+                診斷內容:
+                <asp:TextBox ID="診斷內容TextBox" runat="server" Text='<%# Bind("診斷內容") %>' />
                 <br />
                 時間:
                 <asp:TextBox ID="時間TextBox" runat="server" Text='<%# Bind("時間") %>' />
@@ -96,9 +96,8 @@
                 <asp:Label ID="健保卡號Label" runat="server" Text='<%# Bind("健保卡號") %>' />
                 <br />
                 <br />
-                病因:
-                <asp:Label ID="病因Label" runat="server" Text='<%# Bind("病因") %>' />
-                <br />
+                診斷內容:
+                <asp:Label ID="診斷內容Label" runat="server" Text='<%# Bind("診斷內容") %>' />
                 <br />
                 <br />
                 時間:

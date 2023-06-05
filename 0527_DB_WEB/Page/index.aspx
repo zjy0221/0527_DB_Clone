@@ -21,7 +21,7 @@
 
         <p />  <!-- 上面是叫資料庫，下面是表格檢視 -->
 
-            <asp:FormView ID="FormView1" runat="server" AllowPaging="True" BackColor="#DEBA84" BorderColor="#DEBA84" BorderStyle="None" BorderWidth="1px" CellPadding="3" DataSourceID="SqlDataSource1" GridLines="Both" Height="226px" Width="478px" CellSpacing="2" OnPageIndexChanging="FormView1_PageIndexChanging" DataKeyNames="mr_num">
+            <asp:FormView ID="FormView1" runat="server" AllowPaging="True" BackColor="#DEBA84" BorderColor="#DEBA84" BorderStyle="None" BorderWidth="1px" CellPadding="3" DataSourceID="SqlDataSource1" GridLines="Both" Height="226px" Width="478px" CellSpacing="2" OnPageIndexChanging="FormView1_PageIndexChanging" DataKeyNames="病歷號">
                 <EditItemTemplate>
                     患者:
                     <asp:TextBox ID="患者TextBox" runat="server" Text='<%# Bind("患者") %>' />
@@ -32,29 +32,29 @@
                     健保卡號:
                     <asp:TextBox ID="健保卡號TextBox" runat="server" Text='<%# Bind("健保卡號") %>' />
                     <br />
-                    DiagnosisContent:
-                    <asp:TextBox ID="DiagnosisContentTextBox" runat="server" Text='<%# Bind("DiagnosisContent") %>' />
+                    診斷內容:
+                    <asp:TextBox ID="診斷內容TextBox" runat="server" Text='<%# Bind("診斷內容") %>' />
                     <br />
-                    DrugName:
-                    <asp:TextBox ID="DrugNameTextBox" runat="server" Text='<%# Bind("DrugName") %>' />
+                    藥名:
+                    <asp:TextBox ID="藥名TextBox" runat="server" Text='<%# Bind("藥名") %>' />
                     <br />
-                    application:
-                    <asp:TextBox ID="applicationTextBox" runat="server" Text='<%# Bind("application") %>' />
+                    用途:
+                    <asp:TextBox ID="用途TextBox" runat="server" Text='<%# Bind("用途") %>' />
                     <br />
-                    dose:
-                    <asp:TextBox ID="doseTextBox" runat="server" Text='<%# Bind("dose") %>' />
+                    劑量:
+                    <asp:TextBox ID="劑量TextBox" runat="server" Text='<%# Bind("劑量") %>' />
                     <br />
-                    TakeTime:
-                    <asp:TextBox ID="TakeTimeTextBox" runat="server" Text='<%# Bind("TakeTime") %>' />
+                    服用時間:
+                    <asp:TextBox ID="服用時間TextBox" runat="server" Text='<%# Bind("服用時間") %>' />
                     <br />
-                    frequency:
-                    <asp:TextBox ID="frequencyTextBox" runat="server" Text='<%# Bind("frequency") %>' />
+                    服用頻率:
+                    <asp:TextBox ID="服用頻率TextBox" runat="server" Text='<%# Bind("服用頻率") %>' />
                     <br />
-                    lnvoice:
-                    <asp:TextBox ID="lnvoiceTextBox" runat="server" Text='<%# Bind("lnvoice") %>' />
+                    開立時間:
+                    <asp:TextBox ID="開立時間TextBox" runat="server" Text='<%# Bind("開立時間") %>' />
                     <br />
-                    mr_num:
-                    <asp:Label ID="mr_numLabel1" runat="server" Text='<%# Eval("mr_num") %>' />
+                    病歷號:
+                    <asp:Label ID="病歷號Label1" runat="server" Text='<%# Eval("病歷號") %>' />
                     <br />
                     <asp:LinkButton ID="UpdateButton" runat="server" CausesValidation="True" CommandName="Update" Text="更新" />
                     &nbsp;<asp:LinkButton ID="UpdateCancelButton" runat="server" CausesValidation="False" CommandName="Cancel" Text="取消" />
@@ -74,29 +74,29 @@
                     健保卡號:
                     <asp:TextBox ID="健保卡號TextBox" runat="server" Text='<%# Bind("健保卡號") %>' />
                     <br />
-                    DiagnosisContent:
-                    <asp:TextBox ID="DiagnosisContentTextBox" runat="server" Text='<%# Bind("DiagnosisContent") %>' />
+                    診斷內容:
+                    <asp:TextBox ID="診斷內容TextBox" runat="server" Text='<%# Bind("診斷內容") %>' />
                     <br />
-                    DrugName:
-                    <asp:TextBox ID="DrugNameTextBox" runat="server" Text='<%# Bind("DrugName") %>' />
+                    藥名:
+                    <asp:TextBox ID="藥名TextBox" runat="server" Text='<%# Bind("藥名") %>' />
                     <br />
-                    application:
-                    <asp:TextBox ID="applicationTextBox" runat="server" Text='<%# Bind("application") %>' />
+                    用途:
+                    <asp:TextBox ID="用途TextBox" runat="server" Text='<%# Bind("用途") %>' />
                     <br />
-                    dose:
-                    <asp:TextBox ID="doseTextBox" runat="server" Text='<%# Bind("dose") %>' />
+                    劑量:
+                    <asp:TextBox ID="劑量TextBox" runat="server" Text='<%# Bind("劑量") %>' />
                     <br />
-                    TakeTime:
-                    <asp:TextBox ID="TakeTimeTextBox" runat="server" Text='<%# Bind("TakeTime") %>' />
+                    服用時間:
+                    <asp:TextBox ID="服用時間TextBox" runat="server" Text='<%# Bind("服用時間") %>' />
                     <br />
-                    frequency:
-                    <asp:TextBox ID="frequencyTextBox" runat="server" Text='<%# Bind("frequency") %>' />
+                    服用頻率:
+                    <asp:TextBox ID="服用頻率TextBox" runat="server" Text='<%# Bind("服用頻率") %>' />
                     <br />
-                    lnvoice:
-                    <asp:TextBox ID="lnvoiceTextBox" runat="server" Text='<%# Bind("lnvoice") %>' />
+                    開立時間:
+                    <asp:TextBox ID="開立時間TextBox" runat="server" Text='<%# Bind("開立時間") %>' />
                     <br />
-                    mr_num:
-                    <asp:TextBox ID="mr_numTextBox" runat="server" Text='<%# Bind("mr_num") %>' />
+                    病歷號:
+                    <asp:TextBox ID="病歷號TextBox" runat="server" Text='<%# Bind("病歷號") %>' />
                     <br />
                     <asp:LinkButton ID="InsertButton" runat="server" CausesValidation="True" CommandName="Insert" Text="插入" />
                     &nbsp;<asp:LinkButton ID="InsertCancelButton" runat="server" CausesValidation="False" CommandName="Cancel" Text="取消" />
@@ -116,37 +116,36 @@
                     <asp:Label ID="健保卡號Label" runat="server" Text='<%# Bind("健保卡號") %>' />
                     <br />
                     <br />
-                    DiagnosisContent:
-                    <asp:Label ID="DiagnosisContentLabel" runat="server" Text='<%# Bind("DiagnosisContent") %>' />
+                    診斷內容:
+                    <asp:Label ID="診斷內容Label" runat="server" Text='<%# Bind("診斷內容") %>' />
                     <br />
                     <br />
-                    <br />
-                    DrugName:
-                    <asp:Label ID="DrugNameLabel" runat="server" Text='<%# Bind("DrugName") %>' />
-                    <br />
-                    <br />
-                    application:
-                    <asp:Label ID="applicationLabel" runat="server" Text='<%# Bind("application") %>' />
+                    藥名:
+                    <asp:Label ID="藥名Label" runat="server" Text='<%# Bind("藥名") %>' />
                     <br />
                     <br />
-                    dose:
-                    <asp:Label ID="doseLabel" runat="server" Text='<%# Bind("dose") %>' />
+                    用途:
+                    <asp:Label ID="用途Label" runat="server" Text='<%# Bind("用途") %>' />
                     <br />
                     <br />
-                    TakeTime:
-                    <asp:Label ID="TakeTimeLabel" runat="server" Text='<%# Bind("TakeTime") %>' />
+                    劑量:
+                    <asp:Label ID="劑量Label" runat="server" Text='<%# Bind("劑量") %>' />
                     <br />
                     <br />
-                    frequency:
-                    <asp:Label ID="frequencyLabel" runat="server" Text='<%# Bind("frequency") %>' />
+                    服用時間:
+                    <asp:Label ID="服用時間Label" runat="server" Text='<%# Bind("服用時間") %>' />
                     <br />
                     <br />
-                    lnvoice:
-                    <asp:Label ID="lnvoiceLabel" runat="server" Text='<%# Bind("lnvoice") %>' />
+                    服用頻率:
+                    <asp:Label ID="服用頻率Label" runat="server" Text='<%# Bind("服用頻率") %>' />
                     <br />
                     <br />
-                    mr_num:
-                    <asp:Label ID="mr_numLabel" runat="server" Text='<%# Eval("mr_num") %>' />
+                    開立時間:
+                    <asp:Label ID="開立時間Label" runat="server" Text='<%# Bind("開立時間") %>' />
+                    <br />
+                    <br />
+                    病歷號:
+                    <asp:Label ID="病歷號Label" runat="server" Text='<%# Eval("病歷號") %>' />
                     <br />
                     <br />
                 </ItemTemplate>

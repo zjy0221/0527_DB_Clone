@@ -14,6 +14,7 @@
     <asp:Button ID="nerves_btn" runat="server" Text="神經科" OnClick="btn_Click" />
     <asp:Button ID="metabolic_btn" runat="server" Text="新陳代謝科" OnClick="btn_Click" />
     <asp:Button ID="eyes_btn" runat="server" Text="眼科" OnClick="btn_Click" />
+    <asp:Button ID="all_btn" runat="server" Text="全部科別" OnClick="btn_Click" />
 
     <p/><p/><p/>
 
